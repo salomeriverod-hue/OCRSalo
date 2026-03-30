@@ -6,6 +6,8 @@ from PIL import Image
 
 
 st.title("Reconocimiento de identidad")
+image = Image.open ("cedula colombiana.jpeg")
+
 
 img_file_buffer = st.camera_input("Tómate una foto junto con tu documento de identificación")
 
