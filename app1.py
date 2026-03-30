@@ -5,7 +5,7 @@ import pytesseract
 from PIL import Image
 
 
-st.title("Reconocimiento de identidad)
+st.title("Reconocimiento de identidad")
 
 img_file_buffer = st.camera_input("Tómate una foto junto con tu documento de identificación")
 
